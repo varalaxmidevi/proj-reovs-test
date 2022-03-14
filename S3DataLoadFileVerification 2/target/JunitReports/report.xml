@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.37">
+    <testcase classname="Verifying the files in S3 for multiple data loads" name="Verify the LOAD_HPI files" time="13.855">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Login into AWS console................................................passed
+When Navigate to S3 bucket from menu icon...................................passed
+And Search for different Load Name in search text box.......................undefined
+Then Load_HPI files should be displayed.....................................skipped
+And Verify CSV and CTl Files are present in that location...................skipped
+]]></failure>
+    </testcase>
+</testsuite>
